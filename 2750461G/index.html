@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - project2</title>
+  <title>CodePen - 2750461G_Porject</title>
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -11,86 +11,73 @@
 <html lang='en'>
 
 <head>
-<meta charset='utf-8' />
-<title>Toggle layers</title>
-<meta name='viewport' content='width=device-width, initial-scale=1' />
-<!-- Mapbox JS API !-->
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+  <meta charset='utf-8' />
+  <title>Toggle layers</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <!-- Mapbox JS API !-->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
 
-  
-///font change
+  ///font change
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>
   <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css' type='text/css' />
-  
 
-<!-- Mapbox CSS!-->
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
+  <!-- Mapbox CSS!-->
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 <body>
 
+  <div id='map'></div>
 
-<div id='map'></div>
+  <div id='console'>
 
-<div id='console'>
+    <h1>Grit Bins</h1>
 
-<h1>Grit Bins</h1>
+    <div class="title">Data: <a href='https://data.edinburghcouncilmaps.info/datasets/cityofedinburgh::grit-bins/explore'>Grit Bins Data </a> in Edinburgh
 
-<div class="title">Data: <a href='https://data.edinburghcouncilmaps.info/datasets/cityofedinburgh::grit-bins/explore'>Grit Bins Data </a > in Edinburgh 
-  
-   <div class="map-overlay" id="legend">
-   <div>Legend(time grint bins appeared)</div>
-     
-  </div>
+      <div class="map-overlay" id="legend">
+        <div>Legend(time grint bins appeared)</div>
 
- <!--The menu element contains 2 radio buttons-->
- <div id="menu">
- <h3>Select a year</h3>
-  <label class="container">All
- <input id="style_All" type="radio" checked="checked"
-name="radio">
- <span class="checkmark"></span>
- </label>
- <label class="container">1995
- <input id="style_1995" type="radio" 
-name="radio">
- <span class="checkmark"></span>
- </label>
- <label class="container">1996
- <input id="style_1996" type="radio" name="radio">
- <span class="checkmark"></span>
- </label>
-   <label class="container">2011
- <input id="style_2011" type="radio" 
-name="radio">
- <span class="checkmark"></span>
- </label>
-      <label class="container">2012
- <input id="style_2012" type="radio" 
-name="radio">
- <span class="checkmark"></span>
- </label>
-    </label>
-      <label class="container">2013
- <input id="style_2013" type="radio" 
-name="radio">
- <span class="checkmark"></span>
- </div>
+      </div>
 
+      <!--The menu element contains 2 radio buttons-->
+      <div id="menu">
+        <h3>Select a year</h3>
+        <label class="container">All
+          <input id="style_All" type="radio" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">1995
+          <input id="style_1995" type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">1996
+          <input id="style_1996" type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">2011
+          <input id="style_2011" type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label class="container">2012
+          <input id="style_2012" type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        </label>
+        <label class="container">2013
+          <input id="style_2013" type="radio" name="radio">
+          <span class="checkmark"></span>
+      </div>
 
+    </div>
+    <div class="map-overlay" id="legend">
 
-</div>
-  <div class="map-overlay" id="legend">
+      <div>
 
-
-    
-<div>
-    
-</body> 
-
+</body>
 
 </html>
 <!-- partial -->
