@@ -13,7 +13,7 @@ const style_2013 = "mapbox://styles/ggz2000/cldkcxwn5002701t9jptcafqs";
 const map = new mapboxgl.Map({
   container: "map", // container ID
   style: style_All,
-  center: [-3.324, 55.939],
+  center: [-3.236, 55.934],
   zoom: 11
 });
 
