@@ -1,0 +1,62 @@
+body {
+margin: 0;
+padding: 0;
+}
+#map {
+position: absolute;
+top: 0;
+bottom: 0;
+width: 100%;
+}
+h1 {
+font-size: 20px;
+positionn:absolute;
+}
+.title{
+position:absolute;
+font-size:16px;
+font-family: 'Noto Serif', serif;
+  ;
+}
+#console {
+position: absolute;
+width: 350px;
+length:350px;
+margin: 0px;
+padding:20px 20px;
+background-color: white;
+}
+
+
+
+#legend {
+ padding: 10px 10px 5px 10px;
+ box-shadow: 0px 0px rgba(0, 0, 0, 0.1);
+ line-height: 35px;
+ height: 120px;
+ bottom: 70px;
+ width: 400px;
+  font-size: 14px;
+  font-family: 'Noto Serif', serif;
+}
+.legend-key {
+ display: inline;
+ border-radius: 100%;
+ width: 10px;
+ height: 20px;
+ padding: 10px;
+  font-size: 13px;
+ font-family: 'Noto Serif', serif;  
+}
+
+.mapboxgl-ctrl-geocoder {
+ width: 280px !important;
+}
+
+//////stylise the radio button menu class///
+#menu {
+ position: absolute;
+ background: white;
+ padding: 10px;
+ font-family: "Open Sans", sans-serif;
+}
